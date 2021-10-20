@@ -1,0 +1,10 @@
+submitMessage= function(){
+	let name =$("#name").val();
+	let content =$("#content").val();
+	
+	let apiUrl ="http://localhost.8080/chat";
+	$.post(apiUrl, {name:name,content: content},function(data) {
+		console.log(data);
+	});
+	
+};

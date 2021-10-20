@@ -1,0 +1,13 @@
+Refer to the following picture and make your id page look similar
+Pay close attention to the location of the contents
+Include a unique font for your id card
+Give the full page and id card different background colors
+
+
+
+Work on the button
+Work on the looping
+remove that pic at the bottom
+center the words
+include unique font for id
+add more color to page

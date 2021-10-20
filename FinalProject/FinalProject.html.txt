@@ -1,0 +1,41 @@
+
+
+
+Add a button that uses onclick to call the function named idCard.
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Songs</title>
+//Link to your CSS file
+  <link rel= "stylesheet" href="Ally.css">
+  </head>
+<body>
+/*Create an h1 tag that says "Let's Create an ID card!"*/
+<h1> Let's Create an ID card!</h1>
+
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Facebook</a></li>
+      <li><a href="contact.html">Walmart</a></li>
+      <li><a href="bio.html"></a></li>
+    </ul>
+  </nav>
+    <body>
+/*Create 5 inputs and lables */
+        First Name: <input><br> //Add a break tag after each input
+        Last Name: <input><br>
+        Age: <input><br>
+        Phone Number: <input><br>
+        Address: <input>  <br>
+
+<button onclick="alert('I\'ve been clicked!')">Click me!</button>
+    <img src="https://secure.i.telegraph.co.uk/multimedia/archive/02114/PD50025393_USA_2114846b.jpg">
+//Link to your JavaScript file
+   <script src="bluealert.js"></script>
+
+</body>
+</html>

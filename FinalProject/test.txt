@@ -1,0 +1,64 @@
+let product= {
+  cost: 1200,
+  deliveryFee: 200,
+  
+  getnewPayments: function() {
+    return this.firstName + this.lastName;
+  }
+};
+
+user.getnewPayments();
+
+
+
+let product= {
+  cost: 1200*100,
+  deliveryFee: 200*100,
+  
+  newPayments: function() {
+    return this.cost + this.deliveryFee;
+  }
+};
+
+product.newPayments();
+
+
+3 bd3 ba2,746 sqft
+511 S Craycroft Rd, Tucson, AZ 85711
+let firstSet = ["q", "w", "e", "r", "t", "y"];
+let secondSet = ["1", "3", "3", "7"];
+let cluster;
+cluster = [...firstSet, ...secondSet];
+
+let goodGrades = ["A", "B"];
+let notSoGoodGrades = ["C", "D", "F"];
+let grades=[...goodGrades , ...notSoGoodGrades];
+console.log(grades);
+
+
+RIGHT ANSWER:
+let goodGrades = ["A", "B"];
+let notSoGoodGrades = ["C", "D", "F"];
+let grades;
+grades = [...goodGrades, ...notSoGoodGrades];
+
+
+let arr1 = ['a', 'b', 'c', 'd'];
+let arr2 = ['e', 'f', 'g', 'h'];
+
+let arr3 = [...arr1, ...arr2];
+console.log(arr3);
+
+
+Using the comparison operator for equal value and equal type, complete the if statement to check if even is equal to odd.
+
+
+let odd = "20";
+let even = 20;
+let equalTo;
+if(odd == even ){
+    equalTo = true;
+}
+else {
+    equalTo = false;
+}
